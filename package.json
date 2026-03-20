@@ -1,0 +1,16 @@
+{
+  "name": "seed-local",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "seed-local": "./bin/seed-local"
+  },
+  "scripts": {
+    "dev": "node --experimental-strip-types src/cli.ts",
+    "cli": "node ./bin/seed-local"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
